@@ -1,0 +1,22 @@
+/* src/components/Carousel.css */
+.carousel-container {
+  padding: 20px;
+  background-color: #141414;
+}
+
+.carousel-item {
+  padding: 10px;
+  text-align: center;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.carousel-item p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 8px;
+}
+

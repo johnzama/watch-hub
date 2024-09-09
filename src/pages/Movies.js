@@ -1,5 +1,5 @@
 // src/pages/Movies.js
-import React from 'react';
+import React from 'react'; // Keep only necessary imports
 
 const Movies = () => {
   return (

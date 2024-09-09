@@ -1,5 +1,5 @@
 // src/pages/TVShows.js
-import React from 'react';
+import React from 'react'; // Keep only necessary imports
 
 const TVShows = () => {
   return (

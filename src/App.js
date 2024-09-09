@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Movies from './pages/Movies';
 import TVShows from './pages/TVShows';
 import MyList from './pages/MyList';
+import SignIn from './components/SignIn';
+import SignUp from './components/SignUp';
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
         <Route path="/movies" element={<Movies />} />
         <Route path="/tv-shows" element={<TVShows />} />
         <Route path="/my-list" element={<MyList />} />
+        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/sign-up" element={<SignUp />} />
       </Routes>
     </Router>
   );
